@@ -10,7 +10,7 @@ public class MainController {
 		@RequestMapping(method = RequestMethod.GET)
 		public String getLoginPage() 
 		{
-			boolean isLogin = false;
+			boolean isLogin = true;
 			if (isLogin) {
 				return "main";
 			} else {
